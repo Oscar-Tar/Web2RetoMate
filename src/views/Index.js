@@ -1,5 +1,6 @@
 /*eslint-disable*/
 import React from "react";
+import Logo from "assets/img/WhatsApp Image 2025-07-15 at 15.13.50_f9bdfc15.jpg";
 import { Link } from "react-router-dom";
 
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
@@ -14,18 +15,12 @@ export default function Index() {
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
               <h2 className="font-semibold text-4xl text-blueGray-600">
-                Notus React - A beautiful extension for Tailwind CSS.
+                RetoMate - Aplicacion de matematicas para estudiantes de primero de primaria
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
                 Notus React is Free and Open Source. It does not change any of
-                the CSS from{" "}
-                <a
-                  href="https://tailwindcss.com/?ref=creativetim"
-                  className="text-blueGray-600"
-                  target="_blank"
-                >
+                the CSS from
                   Tailwind CSS
-                </a>
                 . It features multiple HTML elements and it comes with dynamic
                 components for ReactJS, Vue and Angular.
               </p>
@@ -49,9 +44,9 @@ export default function Index() {
           </div>
         </div>
 
-        <img
+       <img
           className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860px"
-          src={require("assets/img/pattern_react.png").default}
+          src=  {Logo}
           alt="..."
         />
       </section>
